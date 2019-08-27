@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
-ENV sbclver 1.3.17
+ENV sbclver 1.5.6
 ENV buildpkgs "curl bzip2 make gcc time zlib1g-dev sbcl"
 ENV sbclurl http://downloads.sourceforge.net/project/sbcl/sbcl/${sbclver}/sbcl-${sbclver}-source.tar.bz2
 ENV qlurl https://beta.quicklisp.org/quicklisp.lisp
